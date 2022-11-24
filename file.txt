@@ -1,0 +1,7 @@
+//1 - Dare la possibilita di inserire il nome;
+//2 - Dare la possibilita di inserire il cognome;
+//3 - Dare la possibilita di inserire il colore preferito;
+//4 - Concentrare valori variabili concatenando il numero 21 a fine stringa;
+//5 - Visualizza a schermo (all'interno della pagine)
+        //5.1 Recupero elementi aventi specifico Id
+        //5.2 Assegno innerHTML il valore dato dalla loro concatenazione

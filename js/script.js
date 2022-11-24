@@ -1,7 +1,13 @@
-//1 - Dare la possibilita di inserire il nome;
-//2 - Dare la possibilita di inserire il cognome;
-//3 - Dare la possibilita di inserire il colore preferito;
-//4 - Concentrare valori variabili concatenando il numero 21 a fine stringa;
-//5 - Visualizza a schermo (all'interno della pagine)
-        //5.1 Recupero elementi aventi specifico Id
-        //5.2 
+
+let first_name = prompt('Inserisci il tuo Nome')
+let last_name = prompt('Inserisci il tuo Cognome')
+let fav_color = prompt('Inserisci il tuo Colore preferito')
+
+let number = document.getElementById('content').innerHTML;
+console.log(number);
+
+//CONCATENAZIONE ID
+let string =`${first_name} ${last_name} ${fav_color} ${number}`
+
+//ASSEGNAZIONE VALORE AD innerHTML
+document.getElementById('content').innerHTML = string;
